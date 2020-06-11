@@ -1,17 +1,18 @@
 import React from 'react'
 import './card.css'
 
-function Card(){
+function Card({modo,price,space,user,send}){
+   
     return(
          
             <div className="cardB">
                 <div className="grid">
                     
-                     <p className="mood">Basic</p>
-                     <p className="price">$199.99</p>
-                     <p className="space">500 GB Storage</p>
-                     <p className="user">2 Users Allowed</p>
-                     <p className="send ">Send Up to 3 GB</p>
+                     <p className="mood">{modo}</p>
+                     <p className="price">{price}</p>
+                     <p className="space">{space}</p>
+                     <p className="user">{user}</p>
+                     <p className="send ">{send}</p>
                     <div className="button">
                     <input type="submit" value="LEARN MORE" className="learn" />
                     </div>
