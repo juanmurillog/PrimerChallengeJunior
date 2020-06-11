@@ -20,11 +20,15 @@ function CardList(){
                    
                   </article>
                   <article className="profesional">
-                  <CardP></CardP>
+                   <CardP/>
+                   
                   </article>
-                  <article className="master">
-                  <Card/>
+
+                  <article className="profesional">
+                   <Card/>
+                   
                   </article>
+                
                   
               </div>
            </div>

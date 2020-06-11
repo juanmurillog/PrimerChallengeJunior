@@ -1,27 +1,3 @@
-.content{
-    
-    display: grid;
-    grid-row-gap: 35px;
-   
-    
-   
-}
 .wrapp{
-    border: 1px solid black;
-    margin-top: 90px;
-   
-
+    
 }
-/*
-.basic{
-   grid-column: 1;
-   grid-row: 2;
-}
-.profesional{
-  grid-column: 2;
-   grid-row: 1/4;
-}
-.master{
-    grid-column: 3;
-   grid-row: 2;
-}*/
