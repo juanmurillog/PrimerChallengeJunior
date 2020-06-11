@@ -1,0 +1,72 @@
+body{
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  background: url('/images/bg-top.svg') no-repeat  ;
+  background-color: var(--Very-Light-Grayish-Blue);
+
+  background-position:right -200px top -30px;
+ 
+}
+:root{
+
+--Very-Light-Grayish-Blue: hsl(240, 78%, 98%);
+--Light-Grayish-Blue: hsl(234, 14%, 74%);
+--Grayish-Blue: hsl(233, 13%, 49%);
+--Dark-Grayish-Blue: hsl(232, 13%, 33%);
+--uno: hsl(236, 72%, 79%);
+ --dos: hsl(237, 63%, 64%);
+}
+
+@media screen and (min-width:768px){
+
+body{
+  border: 1px  solid blue;
+  
+}
+.wrapp{
+   max-width: 1444px;
+   margin: auto;
+   
+   
+}
+.content{
+  grid-template-columns: 1fr 1fr ;
+}
+
+}
+
+@media screen and (min-width:1024px){
+
+  body{
+    border: 1px  solid blue;
+   
+    background : url('/images/bg-bottom.svg') left bottom no-repeat,url('/images/bg-top.svg') right top no-repeat , var(--Very-Light-Grayish-Blue);
+  }
+  .wrapp{
+    margin: 70px 150px;
+    
+  }
+  .wrapper{
+    border: 2px solid red;
+   
+   
+  }
+  .wraper{
+   
+  }
+  
+
+  .content{
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  
+  }
+
+  @media screen and (max-width:1024px){
+    
+  .wrapp{
+    margin: 0 20px;
+  }
+ 
+  }
